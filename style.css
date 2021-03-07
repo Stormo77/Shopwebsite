@@ -1,1 +1,33 @@
+body {
+  background-color:#465775;
+}
+#Header {
+  text-align:center;
+  display:inline-block;
+  background-color:#56E39F;
+  height:50px;
+  width:100%;
 
+}
+.All {
+  padding: 2%;
+  
+}
+iframe {
+  width:inherit;
+  border:none;
+}
+#top-nav {  
+  background-color:#59C9A5;
+  width:100%;
+
+    
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  color:#171C25;
+  padding: 4px;
+}
