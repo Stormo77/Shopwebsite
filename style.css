@@ -9,7 +9,7 @@
 
 /* body section (Everything in entire code's default) */
 body {
-  background:var(--Background);
+  background:var(--);
 }
 #Header {
   text-align:center;
