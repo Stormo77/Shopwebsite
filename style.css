@@ -1,27 +1,32 @@
+:root {
+    /*colors for sections*/
+    --blue-green:#24915d;
+    --Darkblue:#465775;
+    --cyan:#56E39F;
+    --text:#171C25;
+    --Background:#4b2e5e;
+}
+
+/* body section (Everything in entire code's default) */
 body {
-  background-color:#465775;
+  background:var(--Background);
 }
 #Header {
   text-align:center;
-  display:inline-block;
-  background-color:#56E39F;
-  height:50px;
-  width:100%;
-
+  display:block;
+  background:var(--cyan);
 }
+/* code for boxes (Header and Nav) */
 .All {
   padding: 2%;
-  
+  border: 5px groove var(--blue-green);
+   background:var(--Darkblue);
 }
-iframe {
-  width:inherit;
-  border:none;
-}
-#top-nav {  
-  background-color:#59C9A5;
-  width:100%;
 
-    
+/*Code for entire Nav bar*/
+#top-nav {  
+  background:var(--cyan);
+  display:block;
 }
 ul {
   list-style: none;
@@ -29,5 +34,5 @@ ul {
 li {
   display: inline-block;
   color:#171C25;
-  padding: 4px;
+  padding: 2%;
 }
