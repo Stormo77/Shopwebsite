@@ -1,32 +1,40 @@
 :root {
     /*colors for sections*/
-    --blue-green:#24915d;
-    --Darkblue:#465775;
-    --cyan:#56E39F;
+    --blue-green:#306897;
+    --Darkblue:#166088;
+    --nav:#C0D6DF;
     --text:#171C25;
-    --Background:#4b2e5e;
+    --Background:#3D6C9E;
 }
 
 /* body section (Everything in entire code's default) */
 body {
-  background:var(--);
+  background:var(--text);
 }
+/* code for boxes */
 #Header {
-  text-align:center;
-  display:block;
-  background:var(--cyan);
+  background:var(--nav);
 }
-/* code for boxes (Header and Nav) */
+
 .All {
   padding: 2%;
   border: 5px groove var(--blue-green);
-   background:var(--Darkblue);
+  background:var(--Darkblue);
+  text-align:center;
+  display:block;
+}
+section {
+  border:5px black;
+  font-size:25px;
+  height:270px;
+  background:var(--Background);
+  
+  
 }
 
-/*Code for entire Nav bar*/
+/*Code for top Nav bar*/
 #top-nav {  
-  background:var(--cyan);
-  display:block;
+  background:var(--nav);
 }
 ul {
   list-style: none;
@@ -35,4 +43,16 @@ li {
   display: inline-block;
   color:#171C25;
   padding: 2%;
+  
 }
+/*end of code for top nav*/
+
+
+/* code for bottom Nav bar */
+#bottom-nav{
+  border: 5px groove var(--blue-green);
+  bottom:1px;
+  text-align:center;
+  background:var(--nav);
+}
+/*end of code for bottom nav*/
