@@ -1,0 +1,58 @@
+:root {
+    /*colors for sections*/
+    --blue-green:#306897;
+    --Darkblue:#166088;
+    --nav:#C0D6DF;
+    --text:#171C25;
+    --Background:#3D6C9E;
+}
+#panda {
+  margin-left: auto;
+  margin-right: auto;
+  padding:2%;
+  text-align:center;
+  display:inherit;
+  max-width: 100%;
+  max-height: 100%;
+}
+.header {
+  padding: 2%;
+  border: 5px groove var(--blue-green);
+  background:var(--Darkblue);
+  text-align:center;
+  display:block;
+  font-size:10px;
+}
+.section {
+  border:5px black;
+  font-size:25px;
+  height:280px;
+  background:var(--Background);
+  box-shadow: 0px 2px 10px 2px var(--darkblue);
+}
+/*Code for top Nav bar, Header*/
+.nav {  
+  background:var(--nav);
+}
+/* Navs */
+ul {
+  list-style: none;
+  
+}
+li {
+  display: inline-block;
+  color:#171C25;
+  padding: 2%;
+  
+}
+/*end of code for top nav*/
+
+
+/* code for bottom Nav bar */
+#bottom-nav{
+  border: 5px groove var(--blue-green);
+  bottom:1px;
+  text-align:center;
+  background:var(--nav);
+}
+/*end of code for bottom nav*/
