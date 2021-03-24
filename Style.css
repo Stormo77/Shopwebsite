@@ -86,3 +86,16 @@ li {
 .sectionpanda:hover {
   box-shadow: 0px 2px 10px 2px var(--blue-green);
 }
+/* Purchase Page */
+.purchasetext {
+  font-size:20px;
+  padding:1%;
+  margin-left:auto;
+  margin-right:auto;
+  display:inline-block;
+  text-align:center;
+  
+}
+#buy {
+ 
+}
