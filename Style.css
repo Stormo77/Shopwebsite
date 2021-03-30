@@ -37,7 +37,10 @@ body {
 .section:hover {
   box-shadow: 0px 2px 10px 2px var(--blue-green);
 }
+/* contact, help, news, FAQ pages to fix section space */
+
 #infosections {
+  height:350px;
 }
 /* Code for top Nav bar, Header, Nav bars */
 .top-nav {
@@ -53,7 +56,6 @@ ul {
 }
 li {
   display: inline-block;
-  color:#171C25;
   padding: 2%;
 }
 
@@ -63,21 +65,25 @@ li {
   text-align:center;
   background:var(--nav);
 }
+#current{
+  border:2px groove var(--Background);
+}
 
 /* product code (code needed to hold products and make them fit on pages) */
 #panda {
   display:block;
   margin-left: auto;
   margin-right: auto;
-  max-width:400px;
-  min-width:200px;
+  max-width:100%;
+  min-width:100px;
 }
 #pandabig {
   display:block;
   margin-left: auto;
   margin-right: auto;
-  max-width:300px;
-  min-width:200px;
+  max-width:100%;
+  min-width:100px;
+  max-height:100%;
 }
 .sectionpanda {
   padding:5%;
@@ -98,8 +104,26 @@ li {
   margin-left:auto;
   margin-right:auto;
   display:inline-block;
-  text-align:center;
+  text-align:left;
 }
 #buy {
- 
+ text-align:center;
+}
+.buypandas {
+  text-align:center;
+  font-size:20px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.sectionpurchase {
+  height:260px;
+  padding:5%;
+  border:5px black;
+  font-size:15px;
+  background:var(--Background);
+  box-shadow: 0px 2px 10px 2px var(--darkblue);
+}
+.sectionpurchase:hover {
+  box-shadow: 0px 2px 10px 2px var(--blue-green);
 }
