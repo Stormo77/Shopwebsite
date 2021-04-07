@@ -6,7 +6,10 @@
     --text:#171C25;
     --Background:#3D6C9E;
 }
-
+.button:hover {
+  box-shadow: 0px 2px 10px 2px var(--blue-green);
+  
+}
 /* body section (Everything in entire code's default) */
 body {
   background:var(--text);
@@ -183,4 +186,27 @@ li {
 }
 
 
+
+
+.button {
+  height:50px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.buttonlinks {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .buttonlinks {
+  display: block;
+}
 
