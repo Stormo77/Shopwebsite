@@ -1,35 +1,20 @@
 :root {
-    /*colors for sections*/
+    /*colors for entire code, allow easy access to color something*/
     --blue-green:#306897;
     --Darkblue:#166088;
     --nav:#C0D6DF;
     --text:#171C25;
     --Background:#3D6C9E;
 }
+/* code for button and dropdown hover for appropriate color and to show links */
 .button:hover {
   box-shadow: 0px 2px 10px 2px var(--blue-green);
   
 }
-/* body section (Everything in entire code's default) */
-body {
-  background:var(--text);
+.dropdown:hover .buttonlinks {
+  display: block;
 }
-/* code for boxes (helps keep inline, and adapt to screensize) */
-.all{
-  margin-left:auto;
-  margin-right:auto;
-  max-width:550px;
-  min-width:200px;
-  font-size:15px;
-}
-.home {
-  padding: 1%;
-  border: 5px groove var(--blue-green);
-  background:var(--Darkblue);
-  text-align:center;
-  display:block;
-}
-/* navbutton */
+/* navbutton to allow a button to appear at the top of the screen for mobile users to minimise the amount of text on-screen and allow links to all be in one place */
 #nav-button {
   position:absolute;
   border:none;
@@ -53,11 +38,25 @@ body {
   z-index: 1;
 }
 
-
-.dropdown:hover .buttonlinks {
-  display: block;
+/* body section (Just the default text for all text inside the body) */
+body {
+  background:var(--text);
 }
-
+/* code for boxes (helps keep inline, and adapt to screensize) */
+.all{
+  margin-left:auto;
+  margin-right:auto;
+  max-width:550px;
+  min-width:200px;
+  font-size:15px;
+}
+.home {
+  padding: 1%;
+  border: 5px groove var(--blue-green);
+  background:var(--Darkblue);
+  text-align:center;
+  display:block;
+}
 /* sections (space inbetween top and bottom navbars */
 .section {
   border:5px black;
@@ -66,15 +65,16 @@ body {
   height:350px;
   
 }
+/* section hover (to seemingly "highlight" the section) */
 .section:hover {
   box-shadow: 0px 2px 10px 2px var(--blue-green);
 }
-/* contact, help, news, FAQ pages to fix section space */
+/* contact, help, news, FAQ pages to fix section space to make it the propersize */
 
 #infosections {
   height:350px;
 }
-/* Code for top Nav bar, Header, Nav bars */
+/* Code for top Nav bar, Header, Nav bars (allows access between pages, proper colors and links, and adds highlight boxes around links, removes underline */
 .top-nav {
   font-size:15px;
 }
@@ -104,13 +104,14 @@ li {
   display: inline-block;
   padding: 2%;
 }
-
+/* Code for bottom nav (allows links to be in a box and sorted neatly) */
 #bottom-nav{
   border: 5px groove var(--blue-green);
   bottom:1px;
   text-align:center;
   background:var(--nav);
 }
+/* adds a bigger highlight around the current page link to allow user to identify which page they are on */
 #current{
   border:2px groove var(--Background);
 }
@@ -142,7 +143,7 @@ li {
 .sectionpanda:hover {
   box-shadow: 0px 2px 10px 2px var(--blue-green);
 }
-/* Purchase Page */
+/* Purchase Page (makes the text in the purchase page fit propperly*/
 .purchasetext {
   font-size:20px;
   padding:1%;
@@ -151,9 +152,11 @@ li {
   display:inline-block;
   text-align:left;
 }
+
 #buy {
  text-align:center;
 }
+/* centers text and makes it fit properly in the sections for the purchase page  */
 .buypandas {
   text-align:center;
   font-size:20px;
@@ -172,7 +175,7 @@ li {
 .sectionpurchase:hover {
   box-shadow: 0px 2px 10px 2px var(--blue-green);
 }
-
+/* allows a variaty of different sizes and fits for screen sizes, replaces top nav with a button.  */
 @media all and (max-width: 900px) {
   aside {
     display:none;
