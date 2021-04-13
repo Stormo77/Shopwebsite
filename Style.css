@@ -112,7 +112,7 @@ li {
   background:var(--nav);
 }
 /* adds a bigger highlight around the current page link to allow user to identify which page they are on */
-#current{
+.current{
   border:2px groove var(--Background);
 }
 
@@ -188,7 +188,7 @@ li {
   .top-nav {
     display:none;
   }
-  .bottom-nav {
+  #bot {
    display:none; 
   }
   @viewport { width: 900px; }
@@ -207,7 +207,7 @@ li {
   .top-nav {
     display:none;
   }
-  .bottom-nav {
+  #bottom-nav {
    display:none; 
   }
 }
@@ -224,7 +224,7 @@ li {
   .top-nav {
     display:none;
   }
-  .bottom-nav {
+  #bottom-nav {
    display:none; 
   }
 }
